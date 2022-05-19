@@ -1,21 +1,21 @@
 # ZOOP | Unofficial Client for Zoop API
 
-
 ## About
 
 - **Isomorphic**: Compatible with Browser, Node.JS and React Native environments
 - **Written in TypeScript**: So you get type checking and autocomplete for all API Endpoints and parameters
 - **Promises / Async Iterables based**: So you can use `async` and `await` (ES2016) and `for await` (ES2018) syntax.
 
-
 ## Installing
 
 ```bash
 npm install @tidytrax/zoop
 ```
+
 ```bash
 yarn add @tidytrax/zoop
 ```
+
 ## Usage
 
 ```javascript
@@ -31,5 +31,4 @@ const config: IConfig = {
 const marketplace: IMarketplace = Markertplace.Instance(config);
 ```
 
-
-## https://github.com/alibsoft/zoop
+#### https://github.com/alibsoft/zoop
