@@ -1,6 +1,6 @@
 {
   "name": "@tidytrax/zoop",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Zoop Payment Library",
   "main": "build/src/index.js",
   "typings": "build/src/index.d.ts",
@@ -38,7 +38,7 @@
     "node": ">=14"
   },
   "dependencies": {
-    "@tidytrax/zoop": "^0.1.5",
+    "@tidytrax/zoop": "^0.1.8",
     "@types/qs": "^6.9.7",
     "axios": "^0.23.0",
     "axios-form-data": "^1.0.0",
