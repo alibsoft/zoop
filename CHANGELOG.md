@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/tidytrax/zoop/compare/v0.1.5...v0.1.9) (2022-05-19)
+
+
+### Bug Fixes
+
+* eslint vs ts ([6091367](https://github.com/tidytrax/zoop/commit/6091367f1fabcfb85af7261832a3d88caf25b108))
+* github path ([671fd69](https://github.com/tidytrax/zoop/commit/671fd693298ea7659e58fe2600d4d36e680bfa5d))
+* lint ([cb78ee3](https://github.com/tidytrax/zoop/commit/cb78ee3bb2586e91878f8b9673d471d1fd0d82b3))
+
 ### 0.1.5 (2022-05-19)
 
 
