@@ -11,10 +11,10 @@
 ## Installing
 
 ```bash
-npm install @alibsoft/zoop
+npm install @tidytrax/zoop
 ```
 ```bash
-yarn add @alibsoft/zoop
+yarn add @tidytrax/zoop
 ```
 ## Usage
 
@@ -30,3 +30,6 @@ const config: IConfig = {
 // Create API Client
 const marketplace: IMarketplace = Markertplace.Instance(config);
 ```
+
+
+## https://github.com/alibsoft/zoop
