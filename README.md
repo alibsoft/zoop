@@ -11,10 +11,10 @@
 ## Installing
 
 ```bash
-npm install @alibsoft/zoop
+npm install @tidytrax/zoop
 ```
 ```bash
-yarn add @alibsoft/zoop
+yarn add @tidytrax/zoop
 ```
 ## Usage
 
