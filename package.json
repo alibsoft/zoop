@@ -4,7 +4,7 @@
   "description": "Zoop Payment Library",
   "main": "build/src/index.js",
   "typings": "build/src/index.d.ts",
-  "repository": "https://github.com/amonlibanio/zoop",
+  "repository": "https://github.com/tidytrax/zoop",
   "license": "MIT",
   "keywords": [],
   "scripts": {
