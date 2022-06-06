@@ -1,6 +1,6 @@
 {
   "name": "@tidytrax/zoop",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Zoop Payment Library",
   "main": "build/src/index.js",
   "typings": "build/src/index.d.ts",
