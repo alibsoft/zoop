@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://github.com/tidytrax/zoop/compare/v0.2.1...v0.2.2) (2022-06-06)
+
+
+### Bug Fixes
+
+* dependencie ([d652783](https://github.com/tidytrax/zoop/commit/d6527831143884506b2b44030493bd733e6df52c))
+
 ### [0.2.1](https://github.com/tidytrax/zoop/compare/v0.1.9...v0.2.1) (2022-06-06)
 
 
