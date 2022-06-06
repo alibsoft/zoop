@@ -38,7 +38,7 @@
     "node": ">=14"
   },
   "dependencies": {
-    "@tidytrax/zoop": "^0.1.8",
+    "@tidytrax/zoop": "^0.1.9",
     "@types/qs": "^6.9.7",
     "axios": "^0.23.0",
     "axios-form-data": "^1.0.0",
