@@ -1,6 +1,6 @@
 {
   "name": "@tidytrax/zoop",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Zoop Payment Library",
   "main": "build/src/index.js",
   "typings": "build/src/index.d.ts",
@@ -50,12 +50,12 @@
     "fetch-ponyfill": "^7.1.0",
     "isomorphic-base64": "^1.0.2",
     "node-fetch": "^3.2.5",
-    "nyc": "^15.1.0",
     "qs": "^6.10.3",
     "tslib": "^2.4.0",
     "yup": "^0.32.11"
   },
   "devDependencies": {
+    "nyc": "^15.1.0",
     "@ava/typescript": "^2.0.0",
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
