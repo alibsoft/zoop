@@ -51,6 +51,7 @@
     "fetch-ponyfill": "^7.1.0",
     "isomorphic-base64": "^1.0.2",
     "node-fetch": "^3.0.0",
+    "nyc": "^15.1.0",
     "qs": "^6.10.1",
     "tslib": "^2.3.1",
     "yup": "^0.32.11"
