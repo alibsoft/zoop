@@ -7,11 +7,11 @@ export interface ISubscription extends IEnty {
   readonly customer?: string;
   readonly description?: string;
   readonly payment_method?: PaymentType;
-  readonly due_date?: Date;
-  readonly due_since_date?: Date;
-  readonly expiration_date?: Date;
+  readonly due_date?: string;
+  readonly due_since_date?: string;
+  readonly expiration_date?: string;
   readonly amount?: number;
   readonly currency?: string;
-  readonly suspended_at?: Date;
+  readonly suspended_at?: string;
   readonly uri?: string;
 }
