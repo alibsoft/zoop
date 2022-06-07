@@ -1,3 +1,5 @@
+![example workflow](https://github.com/tidytrax/zoop/actions/workflows/main.yml/badge.svg)
+
 # ZOOP | Unofficial Client for Zoop API
 
 ## About
@@ -7,6 +9,10 @@
 - **Promises / Async Iterables based**: So you can use `async` and `await` (ES2016) and `for await` (ES2018) syntax.
 
 ## Installing
+
+```bash
+pnpm install @tidytrax/zoop
+```
 
 ```bash
 npm install @tidytrax/zoop
@@ -30,5 +36,3 @@ const config: IConfig = {
 // Create API Client
 const marketplace: IMarketplace = Markertplace.Instance(config);
 ```
-
-#### https://github.com/alibsoft/zoop
