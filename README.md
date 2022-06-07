@@ -1,5 +1,6 @@
-# ZOOP | Unofficial Client for Zoop API
+![example workflow](https://github.com/tidytrax/zoop/actions/workflows/main.yml/badge.svg)
 
+# ZOOP | Unofficial Client for Zoop API
 
 ## About
 
@@ -7,15 +8,20 @@
 - **Written in TypeScript**: So you get type checking and autocomplete for all API Endpoints and parameters
 - **Promises / Async Iterables based**: So you can use `async` and `await` (ES2016) and `for await` (ES2018) syntax.
 
-
 ## Installing
 
 ```bash
-npm install @alibsoft/zoop
+pnpm install @tidytrax/zoop
 ```
+
 ```bash
-yarn add @alibsoft/zoop
+npm install @tidytrax/zoop
 ```
+
+```bash
+yarn add @tidytrax/zoop
+```
+
 ## Usage
 
 ```javascript

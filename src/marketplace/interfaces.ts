@@ -1,4 +1,3 @@
-/* eslint-disable functional/no-method-signature */
 import { AxiosBasicCredentials, AxiosResponse } from 'axios';
 
 /**

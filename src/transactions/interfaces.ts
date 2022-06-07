@@ -1,7 +1,13 @@
 import { IBoleto } from '../boletos';
 import { IEnty, IMetadata, IQuery, PaymentType } from '../common';
 import { IFeeDetails } from '../plans';
-import { ISplitGrossValue, ISplitPercentage, ISplitRecipientPercentage, ISplitRecipientValue, ISplitValue } from '../split';
+import {
+  ISplitGrossValue,
+  ISplitPercentage,
+  ISplitRecipientPercentage,
+  ISplitRecipientValue,
+  ISplitValue,
+} from '../split';
 import { ICard } from '../tokens';
 
 /**
@@ -60,7 +66,7 @@ export interface IResponseTransaction extends IEnty {
   readonly voided?: boolean;
 }
 export interface IPixKey {
-  readonly type?:  string;
+  readonly type?: string;
   readonly value?: string;
 }
 
@@ -68,17 +74,17 @@ export interface IPixQrCode {
   readonly emv?: string;
 }
 
-export interface IPixMethod  {
-    readonly id?:              string;
-    readonly provider?:        string;
-    readonly version?:         string;
-    readonly type?:            string;
-    readonly reusable?:        boolean;
-    readonly allow_update?:    boolean;
-    readonly expiration_date?: Date;
-    readonly key?:             IPixKey;
-    readonly pix_link?:        string;
-    readonly qr_code?:         IPixQrCode;
+export interface IPixMethod {
+  readonly id?: string;
+  readonly provider?: string;
+  readonly version?: string;
+  readonly type?: string;
+  readonly reusable?: boolean;
+  readonly allow_update?: boolean;
+  readonly expiration_date?: Date;
+  readonly key?: IPixKey;
+  readonly pix_link?: string;
+  readonly qr_code?: IPixQrCode;
 }
 export interface IBoletoMethod extends IBoleto {
   readonly zoop_boleto_id?: string;
@@ -99,7 +105,10 @@ export interface ICardMethod extends IEnty {
   readonly metadata?: IMetadata;
   readonly uri?: string;
 }
-export interface IPaymentMethod extends ICardMethod, IBoletoMethod, IPixMethod {}
+export interface IPaymentMethod
+  extends ICardMethod,
+    IBoletoMethod,
+    IPixMethod {}
 export enum EntryModeType {
   MANUALLY_KEYED = 'manually_keyed',
   CHIP = 'chip',

@@ -23,6 +23,10 @@
     "WebAssembly": true
   },
   "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "functional/no-method-signature": "off",
+    "functional/prefer-readonly-type": "off",
+    "functionalprefer-readonly-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "eslint-comments/disable-enable-pair": [
       "error",

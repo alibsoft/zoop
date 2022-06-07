@@ -1,7 +1,25 @@
 /* eslint-disable functional/no-return-void */
 
-import { ISplitPercentage, ISplitRecipientPercentage } from '../../src/split';
-import { approveTransaction, cancelledLetterTransaction, captureTransaction, chargebackTransaction, createBoletoTransaction, createCardTokenTransaction, createCustomerTransaction, createDirectTransaction, createPixTransaction, getTransaction, getTransactions, getTransactionsBySeller, IBoletoTransaction, ICardTokenTransaction, ICustomerTransaction, IDirectTransaction, IPixTransaction } from '../../src/transactions';
+import { ISplitRecipientPercentage } from '../../src/split';
+import {
+  approveTransaction,
+  cancelledLetterTransaction,
+  captureTransaction,
+  chargebackTransaction,
+  createBoletoTransaction,
+  createCardTokenTransaction,
+  createCustomerTransaction,
+  createDirectTransaction,
+  createPixTransaction,
+  getTransaction,
+  getTransactions,
+  getTransactionsBySeller,
+  IBoletoTransaction,
+  ICardTokenTransaction,
+  ICustomerTransaction,
+  IDirectTransaction,
+  IPixTransaction,
+} from '../../src/transactions';
 import { marketplace } from '../index';
 
 /**
